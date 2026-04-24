@@ -1,9 +1,10 @@
 {
   "name": "h4toki-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "socket.io": "^4.7.2",
-    "http": "^0.0.1-security"
+    "socket.io": "^4.7.2"
   }
 }
